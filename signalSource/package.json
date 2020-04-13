@@ -1,0 +1,26 @@
+{
+  "name": "compromiser",
+  "version": "1.0.0",
+  "description": "three side GPS tracker server - client - device",
+  "main": "signalSender.js",
+  "scripts": {
+    "test": "node signalSender.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsajjad/compromiser.git"
+  },
+  "keywords": [
+    "gps",
+    "tracker"
+  ],
+  "author": "Sajjad Jawad Kadhim",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/iamsajjad/compromiser/issues"
+  },
+  "homepage": "https://github.com/iamsajjad/compromiser#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
