@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Jungle, Accounts</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'base/css/informations.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/fonts.css' %}">
+  <script src="{% static 'base/js/informations.js' %}"></script>
+</head>
+  <body>
+    <div class="container">
+      <p class="title">GET URL</p><br>
+      <p class="url" id="url">http://127.0.0.1:8000/dataIn/{{ code }}/x/y/z/</p>
+      <button type="button" name="button" class="copy" onclick="copy(document.getElementById('url'));">Copy</button>
+    </div>
+  </body>
+</html>
