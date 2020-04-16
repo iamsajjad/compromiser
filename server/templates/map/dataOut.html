@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Jungle, Accounts</title>
+	<title>Compromiser Map</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">{% load static %}
-  <link rel="stylesheet" type="text/css" href="{% static 'packages/leaflet-1.5.1/package/dist/leaflet.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'packages/leaflet-1.5.1/package/dist/leaflet.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'map/css/dataOut.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'fonts/fonts.css' %}">
 </head>
 	<i id="date" style="display: none;">{{date}}</i>
-  <body onload="PlanckMap({{ x }}, {{ y }}, {{ z }});">
+    <body onload="compromiserMap({{ x }}, {{ y }}, {{ z }});">
 		<div class="cont">
-			<div id="PlanckMap"></div>
+			<div id="compromiserMap"></div>
 		</div>
 		<div class="informations">
 			<p class="user">User : {{ username }}</p>
